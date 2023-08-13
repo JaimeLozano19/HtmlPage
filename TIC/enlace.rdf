@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:admin="http://webns.net/mvcb/">
+
+<rdf:Description rdf:about="www.MundoTICUniTolima.com">
+	<dc:title>Las TIC</dc:title>
+	<dc:description>Pagina web enfocada en las TIC, en las ventajas y desventajas que pueden tener, además se sus dinstintos usos y caracteristicas.</dc:description>
+	<dc:subject>
+		<rdf:Bag>
+			<rdf:li>TIC</rdf:li>
+			<rdf:li>Educación</rdf:li>
+			<rdf:li>Tecnología</rdf:li>
+			<rdf:li>Información</rdf:li>
+			<rdf:li>Estándar Técnologico</rdf:li>
+		</rdf:Bag>
+	</dc:subject>
+	<dc:language>es</dc:language>
+	<dc:creator rdfs:Literal="Jaime Lozano" />
+	<dc:contributor rdfs:Literal="Luis Meneses" />
+	<dc:publisher rdfs:Literal="Johan Matta" />
+	<dc:license rdfs:Literal="Licencia bajo termino de desarrollo estudiantil" />
+	<dcterms:Created><dcterms:W3CDTF><rdf:value>2023-06-13</rdf:value></dcterms:W3CDTF></dcterms:Created>
+	<dc:relation rdfs:Literal="TIC" />
+	<dc:relation rdfs:Literal="Educación" />
+	<admin:generatorAgent rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/" />
+</rdf:Description>
+</rdf:RDF>

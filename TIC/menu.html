@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+    <link rel="enlace" type="application/rdf+xml" href=enlace.rdf>
+	<meta name="DC.title" content="Las TIC">
+	<meta name="DC.identifier" content="www.MundoTICUniTolima.com">
+	<meta name="DC.description" content="Pagina web enfocada en las TIC, en las ventajas y desventajas que pueden tener, además se sus dinstintos usos y caracteristicas.">
+	<meta name="DC.subject" content="TIC, Educación, Tecnología, Información, Estándar Técnologico">
+	<meta name="DC.language" scheme="ISO639-1" content="es">
+	<meta name="DC.creator" content="Jaime Lozano">
+	<meta name="DC.contributor" content="Luis Meneses">
+	<meta name="DC.publisher" content="Johan Matta">
+	<meta name="DC.license" content="Licencia bajo termino de desarrollo estudiantil">
+	<meta name="DC.relation" content="TIC">
+	<meta name="DC.relation" content="Educación">
+	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+	<meta name="DCTERMS.created" scheme="ISO8601" content="2023-06-13">
+  <title>MundoTic</title>
+  <style>
+    /* CSS styles for the interface page */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      width: 60%;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #343d46;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #a7adba;
+    }
+    .centrado{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+  </style>
+</head>
+<body background="Img/fondo negro.jpg">
+
+  <div class="container">
+    <h1>¡Bienvenido a MundoTIC!</h1>
+    <div>
+        <p style="color:#343d46; font-size:20px; "> En esta página web, te sumergirás en el apasionante universo de 
+            la Tecnología, la Información y la Comunicación, conocidas como TIC.
+             Aquí, encontrarás un sinfín de contenido que abarca desde las últimas 
+             innovaciones tecnológicas hasta los avances más sorprendentes en el campo de las TIC.
+        </p>
+        
+    </div>
+    <div class="centrado"  >
+        <h3>
+            ¡Dale click a uno de los botones y aprende con nosotros!
+        </h3>
+    </div>
+    <div class="centrado" >
+        <img src="Img/tecnoinformacion.jpg" width="auto" height="auto" >
+    </div>
+    <div class="button-container">
+      <button class="button" onclick="goToPage1()">Tecnologia</button>
+      <button class="button" onclick="goToPage2()">Información</button>
+      <button class="button" onclick="goToPage3()">Comunicación</button>
+      <button class="button" onclick="goToPage4()">TICS</button>
+    </div>
+  
+  </div>
+
+  <script>
+    // JavaScript functions to redirect to other web pages
+    function goToPage1() {
+      window.location.href = 'tecnologia.html';
+    }
+
+    function goToPage2() {
+      window.location.href = 'informacion.html';
+    }
+
+    function goToPage3() {
+      window.location.href = 'comunicacion.html';
+    }
+    function goToPage4() {
+        window.location.href = 'inicio.html';
+      }
+  </script>
+  <dl class="dublincore" style="color:aliceblue">
+    <dt>Título:</dt><dd class="title">Las TIC</dd>
+    <dt>Dirección:</dt><dd><a href="www.MundoTICUniTolima.com" class="identifier">www.MundoTICUniTolima.com</a></dd>
+    <dt>Descripción:</dt><dd class="description">Pagina web enfocada en las TIC, en las ventajas y desventajas que pueden tener, además se sus dinstintos usos y caracteristicas.</dd>
+    <dt>Palabras clave:</dt><dd class="subject">TIC, Educación, Tecnología, Información, Estándar Técnologico</dd>
+    <dt>Código de idioma:</dt><dd class="language">es</dd>
+    <dt>Autor/a:</dt><dd class="creator">Jaime Lozano</dd>
+    <dt>Colaborador/a:</dt><dd class="contributor">Luis Meneses</dd>
+    <dt>Editor/a:</dt><dd class="publisher">Johan Matta</dd>
+    <dt>Derechos:</dt><dd class="license">Licencia bajo termino de desarrollo estudiantil</dd>
+    <dt>Fecha de creación:</dt><dd class="created">2023-06-13</dd>
+    <dt>Recurso relacionado:</dt><dd class="relation">TIC</dd>
+    <dt>Recurso relacionado:</dt><dd class="relation">Educación</dd>
+</dl>
+</body>
+</html>
